@@ -1,0 +1,232 @@
+body{
+    background: #000;
+    color: #fff;
+}
+a{
+    color: inherit;
+}
+.wrapper{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.full-screen{
+    max-width: 100%;
+    background: #0F0F0F;
+}
+span{
+    white-space: pre;
+    color: #969696;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 44px;
+}
+.login span{
+    transition: .3s ease;
+    cursor: pointer;
+}
+.login span:hover{
+    color: #fff;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80px;
+}
+.menu-list{
+    display: flex;
+    align-items: center;
+    color: #969696;
+    text-transform: uppercase;
+}
+.menu-link{
+    padding: 0 20px;
+    line-height: 80px;
+    transition: .3s ease;
+}
+.menu-link_img{
+    margin-left: 40px;
+}
+.menu-list li:hover{
+    color: #fff;
+    background: #1F1F1F;
+}
+.main{
+    background: url(../img/Rectangle\ 3.jpg) no-repeat top center;
+    background-size: cover;
+    padding: 160px 0 155px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-logo img{
+    height: 64px;
+    padding-bottom: 10px;
+    margin: 10px;
+    border-bottom: 2px solid #FFF;
+}
+.main-logo_text{
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.logo-block{
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #fff;
+    margin-bottom: 80px;
+}
+.main-text{
+    max-width: 750px;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.catalog{
+    display: flex;
+    width: 100%;
+    min-height: 730px;
+}
+.season{
+    min-height: 730px;
+    width: 54.2%;
+    background: #000;
+}
+.catalog-link{
+    background: url(../img/Rectangle\ 8.jpg) no-repeat top center;
+    background-size: cover;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 730px;
+    width: 45.8%;
+}
+.collection{
+    display: flex;
+    width: 100%;
+}
+.photo-collection{
+    background: url(../img/Rectangle\ 9.jpg) no-repeat top center;
+    background-size: cover;
+    height: 600px;
+    width: 45.8%;
+}
+.collection-link{
+    height: 600px;
+    padding: 100px 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 54.2%;
+    background: #000;
+}
+.collection-link p{
+    max-width: 470px;
+    text-align: center;
+    margin: 40px 0 60px;
+    font-size: 14px;
+    line-height: 21px;
+}
+h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.new-arrivals{
+    padding: 120px 0 150px;
+}
+.season{
+    padding: 100px 80px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    border-top: 1px solid #fff;
+    margin: 40px auto;
+    width: 120px;
+}
+.catalog-items{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 15px;
+    justify-content: space-between;
+}
+.item{
+    width: 260px;
+    height: 405px;
+    margin: 0 4px 40px;
+}
+.item-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 325px;
+    width: 100%;
+    background: #191B1C;
+}
+.butt{
+    padding: 12px 28px;
+    align-self: center;
+    border: 1px solid #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: .3s ease;
+}
+.butt:hover{
+    background: #fff;
+    color: #0F0F0F;
+}
+h3{
+    margin: 25px 0 10px;
+    font-size: 18px;
+}
+.cost{
+    font-size: 16px;
+}
+@media (max-width: 767px) {
+    .header{
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .numbers{
+        margin-bottom: 10px;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .menu-list{
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .menu-link{
+        line-height: 40px;
+        width: 100%;
+        transition: .3s ease;
+    }
+    .nav-links{
+        width: 100%;
+        text-align: center;
+    }
+    .wrapper{
+        padding: 0;
+    }
+    .logo{
+        margin: 10px;
+    }
+}
